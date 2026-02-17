@@ -1,0 +1,17 @@
+{
+  "name": "skill-agent",
+  "version": "1.0.0",
+  "description": "OpenClaw Agent - Monitoramento remoto de instâncias",
+  "main": "agent.js",
+  "scripts": {
+    "start": "node agent.js",
+    "dev": "node agent.js"
+  },
+  "keywords": ["openclaw", "agent", "monitoring", "remote"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5"
+  }
+}

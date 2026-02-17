@@ -1,0 +1,18 @@
+{
+  "port": 3041,
+  "apiKey": "change-me-to-a-secure-random-key",
+  "instanceName": "my-openclaw-instance",
+  "description": "Descrição opcional da instância",
+  "openclaw": {
+    "workspace": "/root/.openclaw/workspace",
+    "gatewayPort": 18789
+  },
+  "rateLimit": {
+    "windowMs": 60000,
+    "maxRequests": 100
+  },
+  "cors": {
+    "enabled": true,
+    "allowedOrigins": ["*"]
+  }
+}
